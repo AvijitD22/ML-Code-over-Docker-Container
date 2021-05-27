@@ -25,10 +25,9 @@ x = x.reshape(30,1)
 # training the model
 model.fit(x,y)
 
-while True:
-    # storing the output in output variable 
-    output = model.predict([[ Exp ]])
 
-    # printing the output
-    print(output)
-    input("Enter to Continue")
+# storing the output in output variable 
+output = model.predict([[ Exp ]])
+
+# printing the output
+print(output)
