@@ -31,3 +31,4 @@ while True:
 
     # printing the output
     print(output)
+    input("Enter to Continue")
