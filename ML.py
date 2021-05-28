@@ -1,5 +1,3 @@
-Exp = input("Enter Years of Experience :")
-
 #importing required modules
 import pandas as pd
 
@@ -25,8 +23,8 @@ x = x.reshape(30,1)
 # training the model
 model.fit(x,y)
 
-# storing the output in output variable 
-output = model.predict([[ Exp ]])
+#importing joblib to save the trained model
+import joblib
 
-# printing the output
-print(output)
+# no need to run this id Trained_Model.py is present in repo
+joblib.dump(model , "Trained_Model.pk1")
