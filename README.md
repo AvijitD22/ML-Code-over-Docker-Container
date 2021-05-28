@@ -1,5 +1,11 @@
 # Summer-2021-Task-1
 
+ML.py contains simple machine learning code.
+Salary_Data.csv contains dataset.
+Trained Machine Learning is stored in Trained_Model.pk1.
+Directly run Trained_Model.py to use the program and get output.
+
+
 Task Description :-
 
 👉 Pull the Docker container image of CentOS image from DockerHub and create a new container.
