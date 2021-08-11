@@ -1,4 +1,4 @@
-# Summer-2021-Task-1
+# ML-Code-over-Docker-Container
 
 ML.py contains simple machine learning code.
 Salary_Data.csv contains dataset.
